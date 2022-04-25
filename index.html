@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator App</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <section>
+            <div>
+                <h1>Redmond Calculator</h1>
+                <p> A simple calculator app based on the design of
+                    <a href="https://www.behance.net/gallery/112179803/Calculator-UI-Design">
+                        Deep Creationz</a> on Behance.
+                </p>
+            </div>
+            <div class="calc-body">
+                <div class="calc-screen">
+                    <div>
+                        <div class="history">
+                            12+27-12+15*5
+                        </div>
+                        <div class="input-screen">
+                            <div id="operator-selected">
+                                =
+                            </div>
+                            <div id="input">
+                                105
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-buttons">
+                    <div class="row">
+                        <div id="clear-all">AC</div>
+                        <div id="delete">DEL</div>
+                        <div id="percentage">%</div>
+                        <div class="operand" id="division">/</div>
+                    </div>
+                    <div class="row">
+                        <div id="nine">9</div>
+                        <div id="eight">8</div>
+                        <div id="seven">7</div>
+                        <div class="operand" id="multiplication">x</div>
+                    </div>
+                    <div class="row">
+                        <div id="six">6</div>
+                        <div id="five">5</div>
+                        <div id="four">4</div>
+                        <div class="operand" id="subtraction">-</div>
+                    </div>
+                    <div class="row">
+                        <div id="one">1</div>
+                        <div id="two">2</div>
+                        <div id="three">3</div>
+                        <div class="operand" id="addition">+</div>
+                    </div>
+                    <div class="row">
+                        <div id="period">.</div>
+                        <div id="zero">0</div>
+                        <div id="negative">+/-</div>
+                        <div class="equals" id="equals">
+                            <button>=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="./js/calculator.js"></script>
+
+</html>
